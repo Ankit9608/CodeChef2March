@@ -15,6 +15,7 @@ int main(int argc, char const *argv[]) {
             continue;
         }
         vector<deque<int>> pos(26);
+        
         for (int i = 0; i < n; ++i) {
             pos[s[i] - 'a'].push_back(i);
         }
